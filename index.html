@@ -216,7 +216,7 @@
  document.getElementById('table-of-number').innerHTML = '';
   var to_num = document.getElementById('to-num').value;
   var numb = document.getElementById('numb').value;
-  if (to_num <= 500){
+  if (to_num <= 500 && numb <= 100000000){
     let ga = "";
   for(let i = 1; i<=to_num; i++){
     let f = i*numb;
